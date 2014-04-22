@@ -8,25 +8,29 @@ dotenv.load();
 var clientId = process.env.INSTAGRAM_CLIENT_ID,
     clientSecret = process.env.INSTAGRAM_CLIENT_SECRET;
 
-var Instagram = require('instagram-node-lib');
+// requirements
+var HotDays = require ('./temp-hot.json'),
+    ColdDays = require('./temp-cold.json');
+    Instagram = require('instagram-node-lib');
 
+// use instagram creds
 Instagram.set('client_id', clientId);
 Instagram.set('client_secret', clientSecret);
 
-// 1. Read timestamp from each object in temp-20140401-20130401.json
-// 2.
+// #phillystyle
+var lat = 39.952247,
+    lng = -75.163894;
 
-var startTime     = 1364774400, // Mon, 01 Apr 2013 00:00:00 GMT
-    endTime       = 1396224000, // Mon, 31 Mar 2014 00:00:00 GMT
-    minTimestamp  = 0,
-    maxTimestamp  = 0;
-
-
-var dayEnd = function (begin) {
-  var end = begin + 86400;
-  return end;
+/**
+ * Returns an array of Instagram photos for each day
+ *
+ * @param {object} top Type of top 25 days to use. Use either 'HotDays'
+ * or 'ColdDays'.
+ */
+var Photos = function (top) {
+  for (var i = 0; i < top.length; i++) {
+    var temp = top[i].temp_rounded,
+        minTimestamp = top[i].timestamp,
+        maxTimestamp = minTimestamp + 86400;
+  }
 };
-
-while (maxTimestamp < endTime) {
-
-}
