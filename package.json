@@ -1,0 +1,33 @@
+{
+  "name": "coldstuff",
+  "version": "0.0.1",
+  "description": "Cold desserts vs. the weather, powered by the Foursquare API.",
+  "main": "index.js",
+  "dependencies": {
+    "connect-auth": "~0.6.1",
+    "node-foursquare": "~0.2.0",
+    "oauth": "~0.9.11",
+    "dotenv": "^0.2.7",
+    "instagram-node-lib": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/montchr/coldstuff"
+  },
+  "keywords": [
+    "foursquare",
+    "data",
+    "journalism",
+    "templesmc"
+  ],
+  "author": "Chris Montgomery",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/montchr/coldstuff/issues"
+  },
+  "homepage": "https://github.com/montchr/coldstuff"
+}

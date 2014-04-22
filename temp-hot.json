@@ -1,0 +1,227 @@
+[
+  {
+    "rank": 1,
+    "year": 2010,
+    "month": 7,
+    "day": 7,
+    "temp": 92.9,
+    "timestamp": 1278460800,
+    "temp_round": 93
+  },
+  {
+    "rank": 2,
+    "year": 2011,
+    "month": 7,
+    "day": 23,
+    "temp": 92.3,
+    "timestamp": 1311379200,
+    "temp_round": 92
+  },
+  {
+    "rank": 3,
+    "year": 2011,
+    "month": 7,
+    "day": 22,
+    "temp": 91.6,
+    "timestamp": 1311292800,
+    "temp_round": 92
+  },
+  {
+    "rank": 4,
+    "year": 2010,
+    "month": 7,
+    "day": 6,
+    "temp": 90.5,
+    "timestamp": 1278374400,
+    "temp_round": 91
+  },
+  {
+    "rank": 5,
+    "year": 2010,
+    "month": 7,
+    "day": 24,
+    "temp": 89.8,
+    "timestamp": 1279929600,
+    "temp_round": 90
+  },
+  {
+    "rank": 6,
+    "year": 2012,
+    "month": 7,
+    "day": 7,
+    "temp": 89.3,
+    "timestamp": 1341619200,
+    "temp_round": 89
+  },
+  {
+    "rank": 7,
+    "year": 2012,
+    "month": 7,
+    "day": 5,
+    "temp": 89.2,
+    "timestamp": 1341446400,
+    "temp_round": 89
+  },
+  {
+    "rank": 8,
+    "year": 2011,
+    "month": 7,
+    "day": 24,
+    "temp": 89.1,
+    "timestamp": 1311465600,
+    "temp_round": 89
+  },
+  {
+    "rank": 9,
+    "year": 2012,
+    "month": 7,
+    "day": 18,
+    "temp": 89.1,
+    "timestamp": 1342569600,
+    "temp_round": 89
+  },
+  {
+    "rank": 10,
+    "year": 2013,
+    "month": 7,
+    "day": 19,
+    "temp": 89.1,
+    "timestamp": 1374192000,
+    "temp_round": 89
+  },
+  {
+    "rank": 11,
+    "year": 2008,
+    "month": 6,
+    "day": 9,
+    "temp": 87.7,
+    "timestamp": 1212969600,
+    "temp_round": 88
+  },
+  {
+    "rank": 12,
+    "year": 2013,
+    "month": 7,
+    "day": 18,
+    "temp": 88.4,
+    "timestamp": 1374105600,
+    "temp_round": 88
+  },
+  {
+    "rank": 13,
+    "year": 2013,
+    "month": 7,
+    "day": 16,
+    "temp": 87.9,
+    "timestamp": 1373932800,
+    "temp_round": 88
+  },
+  {
+    "rank": 14,
+    "year": 2013,
+    "month": 7,
+    "day": 17,
+    "temp": 87.7,
+    "timestamp": 1374019200,
+    "temp_round": 88
+  },
+  {
+    "rank": 15,
+    "year": 2011,
+    "month": 6,
+    "day": 9,
+    "temp": 87.4,
+    "timestamp": 1307577600,
+    "temp_round": 87
+  },
+  {
+    "rank": 16,
+    "year": 2012,
+    "month": 6,
+    "day": 21,
+    "temp": 87.4,
+    "timestamp": 1340236800,
+    "temp_round": 87
+  },
+  {
+    "rank": 17,
+    "year": 2008,
+    "month": 6,
+    "day": 10,
+    "temp": 87.3,
+    "timestamp": 1213056000,
+    "temp_round": 87
+  },
+  {
+    "rank": 18,
+    "year": 2010,
+    "month": 6,
+    "day": 28,
+    "temp": 86.8,
+    "timestamp": 1277683200,
+    "temp_round": 87
+  },
+  {
+    "rank": 19,
+    "year": 2012,
+    "month": 7,
+    "day": 6,
+    "temp": 87,
+    "timestamp": 1341532800,
+    "temp_round": 87
+  },
+  {
+    "rank": 20,
+    "year": 2013,
+    "month": 7,
+    "day": 20,
+    "temp": 87,
+    "timestamp": 1374278400,
+    "temp_round": 87
+  },
+  {
+    "rank": 21,
+    "year": 2012,
+    "month": 7,
+    "day": 17,
+    "temp": 86.6,
+    "timestamp": 1342483200,
+    "temp_round": 87
+  },
+  {
+    "rank": 22,
+    "year": 2010,
+    "month": 8,
+    "day": 11,
+    "temp": 87.1,
+    "timestamp": 1281484800,
+    "temp_round": 87
+  },
+  {
+    "rank": 23,
+    "year": 2012,
+    "month": 6,
+    "day": 22,
+    "temp": 85.8,
+    "timestamp": 1340323200,
+    "temp_round": 86
+  },
+  {
+    "rank": 24,
+    "year": 2010,
+    "month": 7,
+    "day": 25,
+    "temp": 86.1,
+    "timestamp": 1280016000,
+    "temp_round": 86
+  },
+  {
+    "rank": 25,
+    "year": 2010,
+    "month": 7,
+    "day": 18,
+    "temp": 86,
+    "timestamp": 1279411200,
+    "temp_round": 86
+  }
+]
