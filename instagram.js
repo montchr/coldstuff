@@ -70,6 +70,25 @@ var rmdir = function (d) {
   });
 };
 
+var mediaSearch = function (min, max, filename) {
+  var data;
+
+  Instagram.media.search({
+    lat: lat,
+    lng: lng,
+    min_timestamp: min,
+    max_timestamp: max,
+    complete: function(d) {
+      data = d;
+      // if (data) return data;
+      console.log(data);
+    }
+  });
+
+  writeFile(filename, JSON.stringify(data));
+
+};
+
 
 /**
  * Returns an array of Instagram photos for each day
@@ -99,10 +118,9 @@ var Photos = function (hc) {
         date = year + '-' + month + '-' + day;
 
     // output
-    var filename = './responses/instagram-' + hc + '-' + addZero(rank) + '-' + date + '.json',
-        buffer = minTimestamp + ' ' + maxTimestamp;
+    var filename = './responses/instagram-' + hc + '-' + addZero(rank) + '-' + date + '.json';
 
-    writeFile(filename, buffer);
+    mediaSearch(minTimestamp, maxTimestamp, filename);
   }
 
 };
