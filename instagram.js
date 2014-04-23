@@ -94,8 +94,8 @@ var Photos = function (hc) {
     // time and date
     var time = new Date(minTimestamp * 1000),
         year = time.getUTCFullYear(),
-        month = addZero(time.getUTCMonth()),
-        day = addZero(time.getUTCDate()),
+        month = addZero(time.getUTCMonth() + 1),
+        day = addZero(time.getUTCDate() + 1),
         date = year + '-' + month + '-' + day;
 
     // output
