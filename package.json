@@ -9,9 +9,16 @@
     "oauth": "~0.9.11",
     "dotenv": "^0.2.7",
     "instagram-node-lib": "^0.1.1",
-    "forecast.io": "0.0.7"
+    "forecast.io": "0.0.7",
+    "json2csv": "git://github.com/JumpLink/json2csv"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-merge-json": "^0.9.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-convert": "^0.1.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
